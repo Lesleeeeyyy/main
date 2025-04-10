@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Daryl T. Corpuz - Resume</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#">
+            <img src="https://i.ibb.co/WvCZkhW4/logo.jpg" alt="photo of Mark Daryl T. Corpuz" class="logo">
+        </a>
+        <div class="hamburger-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+    <div class="container">
+        <div class="header">
+            <h1 id="name">Mark Daryl T. Corpuz</h1>
+            <h2 class="subtitle">Professional E-sports Athlete</h2>
+        </div>
+        <div class="profile-section">
+            <div class="about-me">
+                <h2 class="section-title">About Me</h2>
+                <p class="text">I'm Mark Daryl T. Corpuz, a dedicated and passionate Professional Esports Athlete with nearly four years of competitive experience. Throughout my journey in the esports scene, I’ve competed in some of the toughest tournaments across the country — bringing home championships and constantly pushing my limits. My discipline, teamwork, and in-game decision-making have allowed me to grow with each team I've joined — from local grassroots tournaments to high-level LAN and SM events. I specialize in tactical shooters, particularly VALORANT, where I’ve made a name for myself in role like Duelist. Outside of matches, I’m constantly learning — whether it's reviewing past games, refining strategies, or mentoring teammates. My love for the game goes beyond the competition — it’s about growth, community, and making a mark in the esports industry.</p>
+            </div>
+            <img src="https://i.ibb.co/0jg0Grb4/Corpuz-FBDP.jpg" alt="photo of Mark Daryl T. Corpuz" class="profile-pic">
+        </div>
+        
+        <ul class="nav-menu">
+            <li><a href="#experiences" class="nav-link">Experience</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#contact" class="nav-link">Contact Me</a></li>
+            <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+        </ul>
+        
+        <h2 class="section-title" id="experiences">Experience</h2>
+        <div class="fade-in">
+            <h3>Professional Esports Athlete</h3>
+            <p>Blacklist International | 2024-2025 Present</p>
+            <p>SR Nacague | 2023-2024</p>
+            <p>Vipers Clan / Built Different | 2023-2023</p>
+            <p>ZOL Esports | 2022-2023</p>
+            <p>Livestrong Kings | 2021 - 2022</p>
+            <ul>
+                <li>Duelist</li>
+                <li>Flex</li>
+            </ul>
+        </div>
+        <h3 class="section-title" id="skills">Skills</h3>
+        <div class="fade-in">
+            <ul>
+                <li>Decision Making</li>
+                <li>Attentive</li>
+            </ul>
+        </div>
+        <h3 class="section-title" id="education">Education</h3>
+        <p class="fade-in"><strong>Bachelor of Science in Information Technology</strong></p>
+        <p class="fade-in">Our Lady of Fatima University 2024-2028</p>
+        <p class="fade-in"><strong>Science, Technology, Engineering, and Mathematics</strong></p>
+        <p class="fade-in">Eclaro Academy 2020-2022</p>
+        <h2 class="section-title" id="contact">Contact Me</h2>
+        <div class="contact-details">
+            <p><strong>Email:</strong> mtcorpuz2053qc@student.fatima.edu.ph</p>
+            <p><strong>Phone:</strong> 63-920-8255-305</p>
+            <p><strong>Address:</strong> 155 Golden Shower St. Payatas B Quezon City</p>
+        </div>
+        <footer>
+            <p>Copyright 2025</p>
+        </footer>
+    </div>
+    <script>
+        const hamburger = document.querySelector('.hamburger-menu');
+        const navMenu = document.querySelector('.nav-menu');
+      
+        hamburger.addEventListener('click', () => {
+          hamburger.classList.toggle('active');
+          navMenu.classList.toggle('active');
+        });
+      
+        document.querySelectorAll(".nav-menu a").forEach(link => {
+          link.addEventListener("click", () => {
+            hamburger.classList.remove("active");
+            navMenu.classList.remove("active");
+          });
+        });
+      </script>
+      
+</body>
+</html>

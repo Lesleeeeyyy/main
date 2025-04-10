@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Daryl T. Corpuz - Professional Esports Athlete</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#">
+            <img src="https://i.ibb.co/WvCZkhW4/logo.jpg" alt="photo of Mark Daryl T. Corpuz" class="logo">
+        </a>
+        <div class="hamburger-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+    
+    <h1 id="name">Mark Daryl T. Corpuz</h1>
+    <ul class="nav-menu">
+        <li><a href="Untitled-1.html">Home</a></li>
+    </ul>
+
+    <div class="container">
+        <h2 class="subtitle">Professional E-sports Athlete</h2>
+
+        <div class="profile-section">
+            <img src="https://i.ibb.co/0jg0Grb4/Corpuz-FBDP.jpg" alt="photo of Mark Daryl T. Corpuz" class="profile-pic">
+        </div>
+
+        <h2 class="section-title" id="portfolio">Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <h3>VALORANT KINGS OF PH 2024</h3>
+                <p>One of the hardest tournaments I competed in.</p>
+                <img src="https://i.ibb.co/C3HMZkyg/Valorant-KOPH.jpg" alt="photo of Valorant KOPH" class="portfolio-img">
+            </div>
+
+            <div class="portfolio-item">
+                <h3>CYBERZONE GAME FEST VALORANT SM CITY CLARK</h3>
+                <p>My First SM Tournament Championship.</p>
+                <img src="https://i.ibb.co/hJTP6W8P/Valorant-champion.jpg" alt="photo of CYBERZONE GAME FEST VALORANT SM CITY CLARK" class="portfolio-img">
+            </div>
+
+            <div class="portfolio-item">
+                <h3>GEFORCE ICAFE ATTACK VALORANT TOURNAMENT SERIES</h3>
+                <p>My First LAN Tournament Win.</p>
+                <img src="https://i.ibb.co/fdNgQrJz/Valorant-champion2.jpg" alt="photo of GEFORCE ICAFE ATTACK VALORANT TOURNAMENT SERIES" class="portfolio-img">
+            </div>
+
+            <div class="portfolio-item">
+                <h3>VALORANT COMMUNITY GAUNTLET</h3>
+                <p>This is where the story begins.</p>
+                <img src="https://i.ibb.co/MxJxngnm/Valorant-champion3.jpg" alt="photo of VALORANT COMMUNITY GAUNTLET" class="portfolio-img">
+            </div>
+        </div>
+        <script>
+            const hamburger = document.querySelector('.hamburger-menu');
+            const navMenu = document.querySelector('.nav-menu');
+          
+            hamburger.addEventListener('click', () => {
+              hamburger.classList.toggle('active');
+              navMenu.classList.toggle('active');
+            });
+          
+            document.querySelectorAll(".nav-menu a").forEach(link => {
+              link.addEventListener("click", () => {
+                hamburger.classList.remove("active");
+                navMenu.classList.remove("active");
+              });
+            });
+          </script>
+          
+        <footer>
+            <p>Copyright 2025</p>
+        </footer>
+    </div>
+
+    </script>
+</body>
+</html>
